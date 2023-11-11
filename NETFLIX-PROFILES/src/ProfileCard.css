@@ -1,0 +1,29 @@
+.profile-card {
+    background-color: #000000;  
+    border-radius: 8px;
+    overflow: hidden;  
+    transition: transform 0.2s, border-color 0.2s; 
+    text-align: center;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.1);
+    border-color: #ffffff; 
+    border: #ffffff;
+  }
+  
+  .profile-image-container {
+    width: 100%;  
+  }
+  
+  .profile-image {
+    width: 100%;  
+    height: auto; 
+  }
+  
+  .profile-name {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+  }
